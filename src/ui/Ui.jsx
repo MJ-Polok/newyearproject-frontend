@@ -45,7 +45,7 @@ const Ui = () => {
                     <p className="py-4 pb-2">This is a fun New Year project.</p>
                     <p className="py-3 pb-1">The design of this project came from this photo:</p>
                     <img src={newyearpic} alt="" />
-                    <p className="py-4">You can check this on my GitHub: <Link className="link text-[#e95436]" to="https://github.com/Naim637/desktop-tutorial"><i>Go --></i></Link></p>
+                    <p className="py-4">You can check this on my GitHub: <Link className="link text-[#e95436]" to="https://github.com/MJ-Polok/newyearproject-frontend"><i>Go --></i></Link></p>
                     
                     <i></i>
                 </div>

@@ -60,7 +60,7 @@ const FloatSection = () => {
                     <div className="label">
                         <span className="label-text text-[#6172db] leading-[0.8rem]">What is your name?</span>
                     </div>
-                    <input type="text" placeholder="here..." className="text-sm input input-bordered w-full max-w-xs leading-[500]" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} />
+                    <input type="text" placeholder="here..." className="text-sm input input-bordered w-[12rem] leading-[500]" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} />
                 </label>
 
                 <label className="form-control w-full max-w-xs mt-2">
@@ -69,7 +69,7 @@ const FloatSection = () => {
                     </div>
                     <textarea
                         placeholder="write..."
-                        className="textarea textarea-bordered textarea-sm w-full max-w-xs " value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })}></textarea>
+                        className="textarea textarea-bordered textarea-sm w-[12rem] max-w-xs " value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })}></textarea>
                 </label>
                 <button onClick={handleSubmit} className="btn w-[130px] m-auto mt-4 bg-[#e95436] text-[1rem]}" disabled={isLoading} >
                     {isLoading ? "Sending..." : "Send"}
