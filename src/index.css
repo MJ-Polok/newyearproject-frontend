@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: #0f141c;
+}
+.forLargePage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.forSmallPage{
+    display: none;
+    height: 100vh;
+}   
+
+@media screen and (max-height: 815px) {
+    .floatDiv {
+        top: 252px !important;
+    }
+
+}
+
+@media screen and (max-height: 775px) {
+    .floatDiv {
+        top: 205px !important;
+    }
+}
+
+@media screen and (max-height: 640px) {
+    .floatDiv {
+        top: 153px !important;
+    }
+
+    .rightSide {
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .year {
+        font-size: 7.5rem;
+
+        .fr {
+            left: 109px;
+            top: -180px;
+        }
+    }
+
+    .leftSide {
+        font-size: 4.2rem;
+    }
+
+    .rightSide {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .leftSide {
+        font-size: 4rem;
+    }
+
+    .floatDiv {
+        right: 0.5rem !important;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .mainDiv{
+        display: none;
+    }
+    .forSmallPage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
