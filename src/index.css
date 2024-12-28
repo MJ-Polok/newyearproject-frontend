@@ -126,6 +126,35 @@ body {
 }
 
 @media screen and (max-height: 610px) {
+    .name{
+        height: 2.3rem;
+    }
+    .message{
+        height: 3.5rem;
+    }   
+}
+
+@media screen and (max-height: 580px) {
+    .year{
+        font-size: 6rem;
+    }
+
+    .yearbox{
+        padding-top: 0px;
+    }
+
+    .floatDiv{
+        top: 120px !important;
+    }
+    
+    .fr{
+        left: 88px !important;
+        top: -144px !important;
+    }
+}
+
+
+@media screen and (max-width: 305px) {
     .mainDiv{
         display: none;
     }
@@ -137,8 +166,7 @@ body {
     }
 }
 
-
-@media screen and (max-width: 305px) {
+@media screen and (max-height: 545px) {
     .mainDiv{
         display: none;
     }
