@@ -78,7 +78,67 @@ body {
     }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 345px) {
+
+    .year {
+        font-size: 6.5rem;
+
+        .fr {
+            left: 95px;
+            top: -155px;
+        }
+    }
+    .leftSide {
+        font-size: 3.3rem;
+        line-height: 30px;
+    }
+
+    .rightSide {
+        font-size: 3rem;
+        padding-bottom: 0.5rem;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .name{
+        width: 11rem;
+    }
+    .message{
+        width: 11rem
+    }
+
+    .connectwithme{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 310px) {
+    .name{
+        width: 10rem;
+    }
+    .message{
+        width: 10rem
+    }
+
+    .connectwithme{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-height: 610px) {
+    .mainDiv{
+        display: none;
+    }
+    .forSmallPage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 305px) {
     .mainDiv{
         display: none;
     }

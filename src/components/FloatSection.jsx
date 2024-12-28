@@ -32,9 +32,9 @@ const FloatSection = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        setIsLoading(true);
         const success = validateForm();
         if (success === true) {
+            setIsLoading(true);
             console.log(formData);
         }
         try {
@@ -51,7 +51,7 @@ const FloatSection = () => {
 
     return (
         <div className="floatDiv bg-[#fca7ae] absolute top-[290px] p-3 right-4 border-[#e95436] border-2 rounded-xl drop-shadow-xl">
-            <div className="text flex justify-center font-connect text-[17px] font-black text-[#6172db] p-1 py-0">
+            <div className="connectwithme text flex justify-center font-connect text-[17px] font-black text-[#6172db] p-1 py-0">
                 Connect with me🤗
                 <Info className="ml-auto w-[23px]" onClick={() => document.getElementById('my_modal_3').showModal()} />
             </div>
@@ -60,7 +60,7 @@ const FloatSection = () => {
                     <div className="label">
                         <span className="label-text text-[#6172db] leading-[0.8rem]">What is your name?</span>
                     </div>
-                    <input type="text" placeholder="here..." className="text-sm input input-bordered w-[12rem] leading-[500]" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} />
+                    <input type="text" placeholder="here..." className="name text-sm input input-bordered w-[12rem] leading-[500]" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} />
                 </label>
 
                 <label className="form-control w-full max-w-xs mt-2">
@@ -69,9 +69,9 @@ const FloatSection = () => {
                     </div>
                     <textarea
                         placeholder="write..."
-                        className="textarea textarea-bordered textarea-sm w-[12rem] max-w-xs " value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })}></textarea>
+                        className="message textarea textarea-bordered textarea-sm w-[12rem] max-w-xs " value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })}></textarea>
                 </label>
-                <button onClick={handleSubmit} className="btn w-[130px] m-auto mt-4 bg-[#e95436] text-[1rem]}" disabled={isLoading} >
+                <button onClick={handleSubmit} className="btn submitbtn w-[130px] m-auto mt-4 bg-[#e95436] text-[1rem]}" disabled={isLoading} >
                     {isLoading ? "Sending..." : "Send"}
                 </button>
             </div>
