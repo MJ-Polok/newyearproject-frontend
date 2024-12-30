@@ -69,16 +69,9 @@ body {
 }
 
 @media screen and (max-width: 360px) {
-    .leftSide {
-        font-size: 4rem;
-    }
-
     .floatDiv {
         right: 0.5rem !important;
     }
-}
-
-@media screen and (max-width: 345px) {
 
     .year {
         font-size: 6.5rem;
@@ -122,6 +115,37 @@ body {
 
     .connectwithme{
         font-size: 14px;
+    }
+}
+
+@media screen and (max-height: 725px) {
+    .floatDiv {
+        top: 180px !important;
+    }
+}
+
+@media screen and (max-height: 640px) {
+    .floatDiv {
+        top: 150px !important;
+
+        .year {
+            font-size: 6.5rem;
+    
+            .fr {
+                left: 95px;
+                top: -155px;
+            }
+        }
+        .leftSide {
+            font-size: 3.3rem;
+            line-height: 30px;
+        }
+    
+        .rightSide {
+            font-size: 3rem;
+            padding-bottom: 0.5rem;
+            line-height: 30px;
+        }
     }
 }
 
