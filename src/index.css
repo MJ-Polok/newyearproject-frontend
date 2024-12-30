@@ -69,6 +69,21 @@ body {
 }
 
 @media screen and (max-width: 360px) {
+    .leftSide {
+        font-size: 3.5rem;
+    }
+
+    .rightSide {
+        font-size: 3.43rem;
+        line-height: 30px;
+    }
+
+    .floatDiv {
+        right: 0.5rem !important;
+    }
+}
+
+@media screen and (max-width: 345px) {
     .floatDiv {
         right: 0.5rem !important;
     }
@@ -124,9 +139,26 @@ body {
     }
 }
 
+@media screen and (max-height: 710px) {
+    .floatDiv {
+        top: 170px !important;
+    }
+
+    .rightSide {
+        padding-bottom: 1.75rem;
+    }
+}
+
+@media screen and (max-height: 680px) {
+    .rightSide {
+        font-size: 3.4rem;
+    }
+}
+
 @media screen and (max-height: 640px) {
     .floatDiv {
         top: 150px !important;
+    }
 
         .year {
             font-size: 6.5rem;
@@ -146,10 +178,9 @@ body {
             padding-bottom: 0.5rem;
             line-height: 30px;
         }
-    }
 }
 
-@media screen and (max-height: 610px) {
+@media screen and (max-height: 625px) {
     .name{
         height: 2.3rem;
     }
