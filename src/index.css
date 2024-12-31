@@ -39,6 +39,37 @@ body {
     }
 }
 
+@media screen and (max-height: 750px) {
+    .floatDiv {
+        top: 180px !important;
+    }
+    .rightSide{
+        font-size: 3.3rem;
+    }
+}
+
+@media screen and (max-height: 730px) {
+    .floatDiv {
+        top: 170px !important;
+    }
+}
+
+@media screen and (max-height: 720px) {
+    .rightSide {
+        top: 160px !important;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-height: 690px) {
+    .floatDiv {
+        top: 160px !important;
+    }
+    .rightSide{
+        padding-bottom: 2rem;
+    }
+}
+
 @media screen and (max-height: 640px) {
     .floatDiv {
         top: 153px !important;
@@ -70,12 +101,7 @@ body {
 
 @media screen and (max-width: 360px) {
     .leftSide {
-        font-size: 3.5rem;
-    }
-
-    .rightSide {
-        font-size: 3.43rem;
-        line-height: 30px;
+        font-size: 4rem;
     }
 
     .floatDiv {
@@ -84,9 +110,6 @@ body {
 }
 
 @media screen and (max-width: 345px) {
-    .floatDiv {
-        right: 0.5rem !important;
-    }
 
     .year {
         font-size: 6.5rem;
@@ -133,54 +156,7 @@ body {
     }
 }
 
-@media screen and (max-height: 725px) {
-    .floatDiv {
-        top: 180px !important;
-    }
-}
-
-@media screen and (max-height: 710px) {
-    .floatDiv {
-        top: 170px !important;
-    }
-
-    .rightSide {
-        padding-bottom: 1.75rem;
-    }
-}
-
-@media screen and (max-height: 680px) {
-    .rightSide {
-        font-size: 3.4rem;
-    }
-}
-
-@media screen and (max-height: 640px) {
-    .floatDiv {
-        top: 150px !important;
-    }
-
-        .year {
-            font-size: 6.5rem;
-    
-            .fr {
-                left: 95px;
-                top: -155px;
-            }
-        }
-        .leftSide {
-            font-size: 3.3rem;
-            line-height: 30px;
-        }
-    
-        .rightSide {
-            font-size: 3rem;
-            padding-bottom: 0.5rem;
-            line-height: 30px;
-        }
-}
-
-@media screen and (max-height: 625px) {
+@media screen and (max-height: 610px) {
     .name{
         height: 2.3rem;
     }
