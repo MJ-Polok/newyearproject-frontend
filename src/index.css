@@ -28,20 +28,20 @@ body {
 
 @media screen and (max-height: 815px) {
     .floatDiv {
-        top: 252px !important;
+        top: 262px !important;
     }
 
 }
 
 @media screen and (max-height: 775px) {
     .floatDiv {
-        top: 205px !important;
+        top: 215px !important;
     }
 }
 
 @media screen and (max-height: 750px) {
     .floatDiv {
-        top: 180px !important;
+        top: 190px !important;
     }
     .rightSide{
         font-size: 3.3rem;
@@ -50,20 +50,20 @@ body {
 
 @media screen and (max-height: 730px) {
     .floatDiv {
-        top: 170px !important;
+        top: 180px !important;
     }
 }
 
 @media screen and (max-height: 720px) {
     .rightSide {
-        top: 160px !important;
+        top: 170px !important;
         line-height: 30px;
     }
 }
 
 @media screen and (max-height: 690px) {
     .floatDiv {
-        top: 160px !important;
+        top: 170px !important;
     }
     .rightSide{
         padding-bottom: 2rem;
@@ -72,7 +72,7 @@ body {
 
 @media screen and (max-height: 640px) {
     .floatDiv {
-        top: 153px !important;
+        top: 163px !important;
     }
 
     .rightSide {
@@ -175,7 +175,7 @@ body {
     }
 
     .floatDiv{
-        top: 120px !important;
+        top: 130px !important;
     }
     
     .fr{
